@@ -1,5 +1,5 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   title: "ENE Labs | Uruguayan Software Factory",
@@ -18,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className=" bg-gradient-to-r from-black to-blue-950">{children}</body>
+      <Analytics />
     </html>
   )
 }
