@@ -3,6 +3,7 @@ import img from "../assets/img/logo.png";
 
 export default function Home() {
   return (
+    <div className="">
     <main className="h-auto w-full text-center">
       <div className="mt-20">
         <Image
@@ -20,5 +21,6 @@ export default function Home() {
         </div>
       </div>
     </main>
+    </div>
   );
 }
